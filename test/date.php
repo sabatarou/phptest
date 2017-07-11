@@ -1,8 +1,8 @@
 <?php
-$date=date("r");
+$date=date("Y/m/d/H/i/s");
 for($a=0;$a<10;$a++)
 {
-  print("$date");
+echo "$date<br />";
 }
 //Yは西暦
 //yは西暦下二桁
