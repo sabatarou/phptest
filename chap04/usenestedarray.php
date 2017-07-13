@@ -1,0 +1,22 @@
+<?php
+$color=
+[
+"magenta"=>
+  [
+    "red"=>255,
+    "green"=>0,
+    "blue"=>255,
+  ],
+"black"=>
+  [
+    "red"=>0,
+    "green"=>0,
+    "blue"=>0,
+  ] ,
+];
+print("<pre>");
+var_dump($color);
+print("</pre>");
+$one=$color["magenta"]["blue"];
+print("要素一つだけ:".$one);
+ ?>

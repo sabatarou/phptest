@@ -1,0 +1,9 @@
+<?php
+$colormagenta=[
+  "red"=>255,
+  "green"=>0,
+  "blue"=>255,
+];
+print("<pre>");
+var_dump($colormagenta);
+print("</pre>");
