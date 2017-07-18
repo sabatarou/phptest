@@ -10,9 +10,5 @@
     <button type="submit" name="choice" value="50">50円</button>
     <button type="submit" name="choice" value="100">100円</button>
   </form>
-    <?php
-    $s+=htmlspecialchars($_POST['choice'], ENT_QUOTES, 'UTF-8');
-    print("$s");
-     ?>
   </body>
 </html>
