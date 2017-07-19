@@ -2,10 +2,11 @@
 //==は,boolean型を表すを返す演算子
 $version="1.23";
 ($version=="1.23")?print("バージョンは1.23です<br>"):print("バージョンは1.23ではありません<br>");
-$show_line="";
+$show_line=false;
 var_dump($show_line);
 if($show_line)
 {
   echo("線は表示されません");
 }
+$show_line="";
  ?>
