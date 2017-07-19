@@ -1,0 +1,12 @@
+<?php
+$num1=6;
+$num2=5;
+$ans1=$num1+$num2;
+$ans2=$num1-$num2;
+$ans3=$num1*$num2;
+$ans4=$num1/$num2;
+print("足すと"."$ans1");
+print("引くと"."$ans2");
+print("掛けると"."$ans3");
+print("割ると"."$ans4");
+ ?>
