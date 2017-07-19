@@ -1,2 +1,0 @@
-sample url
-https://tech.cmd08.com/php-janken
